@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 import requests
 import json
 from PIL import Image
@@ -95,12 +95,12 @@ if selected == "Introduction":
     </style>
     """, unsafe_allow_html = True)
     st.markdown('<p class = "big-font">Select a tab on the navigation menu to get started!</p>', unsafe_allow_html = True)
-    st_lottie(lottie_computer,height = 300, key = "computer")
+    #st_lottie(lottie_computer,height = 300, key = "computer")
 
 if selected == "Home":
     st.subheader("Hi, I am Anush! :wave:") 
     st.write("I am currently a sophomore at the University of Illinois at Urbana-Champaign and I am majoring in Aerospace Engineering." )
-    st_lottie(lottie_welcome,height = 300, key = "welcome")
+    #st_lottie(lottie_welcome,height = 300, key = "welcome")
 
 
 if selected == "About":
@@ -123,7 +123,8 @@ if selected == "About":
             "He hopes to get a valuable internship at a company that will allow him to gain important work experience that he can utilize in a full-time career."
             "In addition to technical organizations, he is also involved in community service organizations such as Asha for Education.")
         with right_column:
-            st_lottie(lottie_hello,height = 300, key = "hello")
+            #st_lottie(lottie_hello,height = 300, key = "hello")
+            st.empty()
 
 if selected == "Resume":
     #GENERAL SETTINGS
