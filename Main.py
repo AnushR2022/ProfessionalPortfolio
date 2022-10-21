@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit-lottie import st_lottie
+from streamlit_lottie import st_lottie
 import requests
 import json
 from PIL import Image
