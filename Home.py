@@ -1,6 +1,3 @@
-from json.encoder import ESCAPE_DCT
-from tkinter.font import BOLD
-from typing_extensions import dataclass_transform
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
